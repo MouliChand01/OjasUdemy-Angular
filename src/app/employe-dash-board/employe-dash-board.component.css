@@ -1,0 +1,54 @@
+.sidebar{
+    height: 100%;
+    font-family: roboto;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    display: inline-block;
+    position: fixed;
+    width: 230px;
+    background: #f7f8fa;
+    height: calc(100vh - 128px);
+    overflow: hidden;
+    border-right: 1px solid #dbe1e8;
+    padding: 20px;
+    overflow: auto;
+   
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50% !important;
+}
+.profile{
+    text-align: center;
+    margin: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    font-size: 14px;
+    color: #2a333e;
+    padding: 8px 0px 8px 32px;
+    position: relative;
+    transition: all 0.5s ease;
+    text-decoration: none !important;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+}
+.dumyData{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: larger;
+    text-align: center;
+}
+.card{
+    width: fit-content;
+    margin: 5px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}

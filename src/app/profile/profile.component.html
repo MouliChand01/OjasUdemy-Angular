@@ -1,0 +1,23 @@
+<div class="profileHead">
+    <div class="leftside">
+        <img src="assets/profilelogo.png">
+    </div>
+    <div class="rightside">
+        <h1>Hello {{empObject.name}} ,</h1>
+        <h2>completion certificates</h2>
+    </div>
+</div>
+<div class="profileBody">
+  <h1 class="a1">Users who have got more than 75% marks will be awarded with course completion certificate hear.</h1>
+  <table class="table table-striped table-bordered table-hover">
+      <thead><td>Sno</td><td>Course Name</td><td>Course Status</td><td>Course Marks</td><td>Certificate</td></thead>
+      <tbody *ngFor="let arr of completeCourseList;let i=index">
+          <td>{{i+1}}</td>
+          <td>{{arr}}</td>
+          <td>Incomplete</td>
+      </tbody>
+  </table>
+</div>
+<div class="profileBottom">
+ <button class="form-control btn-primary" (click)="logout()">Employe Logout</button>
+</div>

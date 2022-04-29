@@ -1,0 +1,51 @@
+<div class="dashboard">
+    <div class="container">
+        <!-- ################## sideNav Bar ###################  -->
+        <div class="col-12">
+            <div class="col-3 sidebar" style="height: 100%;margin-left: -151px;">
+                <div class="profile">
+                    <div class="imglogo">
+                        <img src={{EmployeData.src}} alt="EmployeeImage">
+                    </div>
+                    <h1>{{EmployeData.name}}</h1>
+                    <h3>{{EmployeData.role}}</h3>
+                    <h3>{{EmployeData.empid}}</h3>
+                    <h3>{{EmployeData.email}}</h3>
+                </div>
+                <mat-progress-bar class="example-margin" [value]="value" color="warn"> </mat-progress-bar>
+                <hr>
+                 <!-- ################## listOf Coures ###################  -->
+                <div class="couresList">
+                    <ul>
+                        <li><a routerLink="/EmployeProfile" (click)="gotoProfile()" >Profile &NestedGreaterGreater;</a></li>
+                    </ul>
+                    <ul *ngFor="let tech of techList">
+                        <li (click)="selectedTech(tech.Name)"><a>{{tech.Name}} &NestedGreaterGreater;</a></li>
+                    </ul>
+                </div>
+            </div>
+             <!-- ################## body looping cards ###################  -->
+            <div class="col-9 body" style="margin-left: 94px;">
+                <div class="loadDiv">
+                    <div class="dumyData" *ngIf="hide">
+                        <p>Welcome<strong>&nbsp; {{EmployeData.name}}</strong></p>
+                        <p>Ojas main motive is to make every employee a Fullstack Developer.</p>
+                        <p>So,Here we have provided a lot of Tutorials which you learn for free.</p>
+                        <p>After the completion of the course you will recieve notification about the Mock tests.</p>
+                        <p>Users who have got more than 75% marks will be awarded with course completion certificate.
+                        </p>
+                    </div>
+                    <div class="flex">
+                       <div class="card" *ngFor="let itm of loadData">
+                            <div class="card-body">
+                                <p>{{itm.id}}</p>
+                                <p>{{itm.title}}</p>
+                                <video src={{itm.src}} id={{itm.id}} controls height="250px" width="400px" poster={{itm.posterImg}} (ended)="videoended(itm.id)"></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,225 @@
+{
+  "EmployeeData": [
+    {
+      "id": 1,
+      "name": "Mouli Ramadasu",
+      "batch": "OLIC-600",
+      "empid": "21312",
+      "email": "mouli.ramadasu@ojas-it.com",
+      "role": "Trainee SoFtWareEngineer",
+      "password": "12345678",
+      "src": "assets/mouli.png"
+    },
+    {
+      "id": 2,
+      "name": "Siva sai Kumar",
+      "batch": "OLIC-600",
+      "empid": "21322",
+      "email": "siva@ojas-it.com",
+      "role": "Trainee SoFtWareEngineer",
+      "password": "12345678",
+      "src": "assets/siva.png"
+    },
+    {
+      "id": 3,
+      "name": "yesuRaju siddamsetti",
+      "batch": "OLIC-600",
+      "empid": "21306",
+      "email": "raju@ojas-it.com",
+      "role": "Trainee SoFtWareEngineer",
+      "password": "12345678",
+      "src": "assets/raju.png"
+    },
+    {
+      "name": "krishna",
+      "email": "sskrishna@gmail.com",
+      "empid": "21310",
+      "role": "trinee Software",
+      "batch": "OLIC-600",
+      "password": "12345678",
+      "id": 4,
+      "src": "assets/krishna.png"
+    },
+    {
+      "name": "sravankumar thati",
+      "email": "sravanthati111@gamil.com",
+      "empid": "21306",
+      "role": "senior developer",
+      "batch": "OLIC-600",
+      "password": "12345",
+      "id": 5
+    }
+  ],
+  "JavaSeriptCourse": [
+    {
+      "id": 1,
+      "title": "introduction",
+      "src": "assets/video1.mp4",
+      "posterImg": "assets/jsposter.png"
+    },
+    {
+      "id": 2,
+      "title": "BasicOf JavaScript",
+      "src": "assets/video2.mp4",
+      "posterImg": "assets/jsposter.png"
+    },
+    {
+      "id": 3,
+      "title": "Operators JavaScript",
+      "src": "assets/video3.mp4",
+      "posterImg": "assets/jsposter.png"
+    },
+    {
+      "id": 4,
+      "title": "ConditionalStatement JavaScript",
+      "src": "assets/video4.mp4",
+      "posterImg": "assets/jsposter.png"
+    },
+    {
+      "id": 5,
+      "title": "ControlStatement JavaScript",
+      "src": "assets/video5.mp4",
+      "posterImg": "assets/jsposter.png"
+    },
+    {
+      "id": 6,
+      "title": "Advanced JavaScript",
+      "src": "",
+      "posterImg": "assets/jsposter.png"
+    }
+  ],
+  "HtmlCourse": [
+    {
+      "id": 11,
+      "title": "introduction",
+      "src": "assets/video1.mp4",
+      "posterImg": "assets/htmlposter.png"
+    },
+    {
+      "id": 12,
+      "title": "BasicOf Html",
+      "src": "assets/video2.mp4",
+      "posterImg": "assets/htmlposter.png"
+    },
+    {
+      "id": 13,
+      "title": "Advanced Html",
+      "src": "assets/video3.mp4",
+      "posterImg": "assets/htmlposter.png"
+    }
+  ],
+  "CssCourse": [
+    {
+      "id": 21,
+      "title": "introduction",
+      "src": "",
+      "posterImg": "assets/cssposter.png"
+    },
+    {
+      "id": 22,
+      "title": "BasicOf Css",
+      "src": "",
+      "posterImg": "assets/cssposter.png"
+    },
+    {
+      "id": 23,
+      "title": "Advanced Css",
+      "src": "",
+      "posterImg": "assets/cssposter.png"
+    },
+    {
+      "id": 24,
+      "title": "Css-3 Advanced concepts",
+      "src": "",
+      "posterImg": "assets/cssposter.png"
+    }
+  ],
+  "PythonCourse": [
+    {
+      "id": 31,
+      "title": "introduction",
+      "src": "",
+      "posterImg": "assets/pythonposter.png"
+    },
+    {
+      "id": 32,
+      "title": "BasicOf Python",
+      "src": "",
+      "posterImg": "assets/pythonposter.png"
+    },
+    {
+      "id": 33,
+      "title": "Operators Python",
+      "src": "",
+      "posterImg": "assets/pythonposter.png"
+    },
+    {
+      "id": 34,
+      "title": "ConditionalStatement Python",
+      "src": "",
+      "posterImg": "assets/pythonposter.png"
+    },
+    {
+      "id": 35,
+      "title": "ControlStatement Python",
+      "src": "",
+      "posterImg": "assets/pythonposter.png"
+    },
+    {
+      "id": 36,
+      "title": "Advanced Python",
+      "src": "",
+      "posterImg": "assets/pythonposter.png"
+    },
+    {
+      "id": 37,
+      "title": "DataScience Concept",
+      "src": "",
+      "posterImg": "assets/pythonposter.png"
+    }
+  ],
+  "AngularCourse": [
+    {
+      "id": 41,
+      "title": "introduction",
+      "src": "",
+      "posterImg": "assets/angularposter.png"
+    },
+    {
+      "id": 42,
+      "title": "BasicOf Angular",
+      "src": "",
+      "posterImg": "assets/angularposter.png"
+    },
+    {
+      "id": 43,
+      "title": "Routing Angular",
+      "src": "",
+      "posterImg": "assets/angularposter.png"
+    },
+    {
+      "id": 44,
+      "title": "component Comunication",
+      "src": "",
+      "posterImg": "assets/angularposter.png"
+    },
+    {
+      "id": 45,
+      "title": "RouteGuards Angular",
+      "src": "",
+      "posterImg": "assets/angularposter.png"
+    },
+    {
+      "id": 46,
+      "title": "HttpClientModule Angular",
+      "src": "",
+      "posterImg": "assets/angularposter.png"
+    },
+    {
+      "id": 47,
+      "title": "FormsModule Angular ",
+      "src": "",
+      "posterImg": "assets/angularposter.png"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<div class="sinupPage">
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h2 style="text-align: center;"> New Employee Registration </h2>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="registerForm" (ngSubmit)="newData()" autoComplete="off">
+          <div class="form-group">
+            <label>Full Name :</label>
+            <input type="text" formControlName="name" class="form-control"  /><br>
+            <span class="danger" *ngIf="registerForm.get('name')?.errors && registerForm.get('name')?.touched ">Field Is Required</span>
+          </div>
+          <div class="form-group">
+            <label>Employee Id :</label>
+            <input type="tel" formControlName="empid" class="form-control" /><br>
+            <span class="danger" *ngIf="registerForm.get('empid')?.errors && registerForm.get('empid')?.touched ">Field Is Required</span>
+          </div>
+          <div class="form-group">
+            <label>Select Batch :</label>
+            <select class="form-select" formControlName="batch">
+              <option selected disabled>Select Employee Batch </option>
+              <option value="OLIC-800">OLIC-800</option>
+              <option value="OLIC-104">OLIC-104</option>
+              <option value="OLIC-600">OLIC-600</option>
+              <option value="OLIC-400">OLIC-400</option>
+              <option value="OLIC-300">OLIC-300</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Email :</label>
+            <input type="email" formControlName="email" class="form-control" /><br>
+            <span class="danger" *ngIf="registerForm.get('email')?.errors && registerForm.get('email')?.touched ">Field Is Required</span>
+          </div>
+          <div class="form-group">
+            <label>Role :</label>
+            <input type="text" formControlName="role" class="form-control" /><br>
+            <span class="danger" *ngIf="registerForm.get('role')?.errors && registerForm.get('role')?.touched ">Field Is Required</span>
+          </div>
+          <div class="form-group">
+            <label>Password :</label>
+            <input type="password" formControlName="password" class="form-control" /><br>
+            <span class="danger" *ngIf="registerForm.get('password')?.errors && registerForm.get('password')?.touched ">Field Is Required</span>
+            <!-- <span class="danger" *ngIf="registerForm.get('password')?.errors.minLength ">must be at least 8 characters long</span> -->
+          </div>
+          <button style="margin-left: 40%;" type="submit" [disabled]="!registerForm.valid" >Register</button>
+          <!-- <button type="submit" >Register</button> -->
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

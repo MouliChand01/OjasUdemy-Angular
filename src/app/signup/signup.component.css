@@ -1,0 +1,24 @@
+.card{
+    width: 50%;
+    margin: 60px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+.sinupPage{
+    background-image: url('../../assets/bg3.jpg');
+    background-size: 100%;
+    background-size: cover;
+    height: 790px;
+}
+.danger{
+    color: tomato;
+}
+input.ng-invalid.ng-touched{
+    border: solid 2px tomato;
+}
+input.ng-valid{
+    border: solid 2px rgb(15, 214, 8);
+}
